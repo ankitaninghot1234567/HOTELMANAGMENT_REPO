@@ -1,0 +1,15 @@
+.admin{
+   margin-left: 400px;
+    margin-right:20px;
+}
+.user{
+    margin-right:20px;
+}
+.owner{
+    margin-right:20px;
+}
+
+.background{
+    background-color: aqua;
+    height:100%
+}

@@ -1,1 +1,13 @@
-<p>landing works!</p>
+
+<div class="background" *ngIf="initial">
+<button  mat-raised-button color="accent" class="admin" (click)="journey('admin')">Admin</button>
+<button mat-raised-button color="accent" class="owner" (click)="journey('Owner')">Owner</button>
+<button mat-raised-button color="accent" class="user"(click)="journey('User')">User</button>
+
+</div>
+
+
+<div>
+    <button  mat-raised-button color="accent" class="admin" (click)="back()">Back</button>
+    <button  mat-raised-button color="accent" class="admin" (click)="signin()">Signin</button>
+</div>

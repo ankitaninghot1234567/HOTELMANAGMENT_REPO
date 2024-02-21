@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./signin.component.css']
 })
 export class SigninComponent {
-
+  name="ankita"
+  isShowPass = false;
+  userData:any;
+  isValid=false;
+  constructor(){}
+  login(data:any){}
+  toShowPassword() {
+    this.isShowPass = !this.isShowPass;
+  }
 }
