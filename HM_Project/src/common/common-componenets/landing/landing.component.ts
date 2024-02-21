@@ -22,5 +22,6 @@ export class LandingComponent {
   //     this.router.navigateByUrl('user')
   //    }
   // }
-back()
+back(){}
+signin(){}
 }
